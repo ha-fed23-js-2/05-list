@@ -1,0 +1,19 @@
+.animal-list {
+	list-style-type: none;
+}
+
+.animal-list > li {
+	margin: 0;
+	border: 1px solid darkgray;
+	padding: 0.5em;
+	margin-bottom: 0.5em;
+	box-shadow: 0 0 0.3em rgb(111, 152, 116) inset;
+	transition: 0.3s all linear;
+}
+.animal-list > li:hover {
+	box-shadow: 0 0 0.5em rgb(39, 103, 41) inset;
+}
+
+.animal-list > li h3 {
+	margin: 0 0 0.5em 0;
+}

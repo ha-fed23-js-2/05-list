@@ -10,6 +10,7 @@ const defaultObject = {
 	legs: 4,
 	hasTail: true
 }
+// Ändra ett objekt genom att först skapa en kopia
 // const hurtFox = { ...defaultObject, legs: 3 }
 
 function App() {

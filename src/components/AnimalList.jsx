@@ -35,7 +35,7 @@ import { useState } from 'react'
 const AnimalList = () => {
 	const [data /*, setData*/] = useState(forestAnimals)
 	return (
-		<ul>
+		<ul className="animal-list">
 		{data.map(animal => (
 			<li key={animal.name}>
 			<h3> {animal.name} </h3>
