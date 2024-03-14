@@ -3,13 +3,8 @@ import { useState } from 'react'
 import './App.css'
 import AnimalFact from './components/AnimalFact.jsx'
 import AnimalList from './components/AnimalList.jsx'
+import { defaultObject } from './data/data.js'
 
-const defaultObject = {
-	name: 'Fox',
-	sound: 'unknown',
-	legs: 4,
-	hasTail: true
-}
 // Ändra ett objekt genom att först skapa en kopia
 // const hurtFox = { ...defaultObject, legs: 3 }
 
