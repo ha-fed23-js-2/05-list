@@ -22,6 +22,11 @@ const AnimalList = () => {
 				</div>
 				Djuret blir som högst {animal.maxHeight} och äter {animal.isHerbivore ? 'växter' : 'andra djur'}.
 
+				<div>
+					<input type="text" value="name" />
+					<button> Ändra namn </button>
+				</div>
+
 			</li>
 		))}
 		</ul>
